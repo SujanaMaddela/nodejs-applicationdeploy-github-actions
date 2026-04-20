@@ -6,7 +6,6 @@
   "author": "",
   "type": "commonjs",
   "main": "index.js",
-  "type":"module",
   "scripts": {
     "start": "node index.js"
   },
