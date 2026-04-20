@@ -4,7 +4,7 @@ const app = express()
 const PORT = process.env.PORT ?? 4500
 
 app.get('/', (req, res) => {
-    return res.json({ msg: 'Hello from the server v1 ' })
+    return res.json({ msg: 'Hello from the server v2 ' })
 })
 
 app.listen(PORT, () => {
